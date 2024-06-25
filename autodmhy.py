@@ -113,7 +113,7 @@ class Search_dmhy:
         self.proxie = None
         url = 'http://www.dmhy.org'  # 这里定义访问的网络地址
         self.url = url
-        self.downurl = "http://kk:123456@192.168.123.205:24564" # todo:这里填好比特彗星的远程下载接口
+        self.downurl = "http:/jing:204807@192.168.200.24:18848" # todo:这里填好比特彗星的远程下载接口
         self.session = HTMLSession()
 
     def findweb(self,url):
